@@ -3,7 +3,7 @@
 
 ## Installation
 ### Windows package
-In Release section, download and unzip the folder.
+In Releases section, download and unzip the folder.
 
 ### With source code
 Python dependancies:
