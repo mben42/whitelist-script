@@ -7,6 +7,7 @@ command = commandfile.readline()
 time.sleep(5) # 5 seconds sleep to go to Minecraft window
 
 for nick in userlist:
+    nick = nick.rstrip('\n')
     keyboard.write(f"{command} {nick}")
     pyautogui.press('enter')
     pyautogui.press('t')
